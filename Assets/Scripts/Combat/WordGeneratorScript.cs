@@ -1,21 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class word_generator_script : MonoBehaviour {
-
+public class WordGeneratorScript : MonoBehaviour {
     public GameObject wordPrefab;
     public float spawnTime = 0.5f;
     public bool left = true;
 
-    public float yMin = 0f;
-    public float yMax = 20f;
-    public float xLeft = -10f;
-    public float xRight = 10f;
+    public float yMin;
+    public float yMax;
+    public float xLeft;
+    public float xRight;
     public float speed = 10f;
-
 
 	// Use this for initialization
 	void Start () {
+    }
+
+    public void Activate ()
+    {
         InvokeRepeating("Spawn", spawnTime, spawnTime);
     }
 	
@@ -37,6 +39,13 @@ public class word_generator_script : MonoBehaviour {
 
         TextMesh tm = word.GetComponent<TextMesh>();
         tm.text = "Sup";
+
+        if(Random.Range(0,5) > 1)
+        {
+            tm.text = "uhm";
+            tm.tag = "Bad";
+            tm.color = Color.red;
+        }
 
         rb.velocity = new Vector2(velocity*3, 0);
 

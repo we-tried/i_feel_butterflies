@@ -7,7 +7,7 @@ public class PlayerControllerScript : MonoBehaviour {
     Animator animator;
 
     bool inCombat = false;
-    float speed = 10f;
+    float speed = 15f;
 
 	// Use this for initialization
 	void Start () {
@@ -15,10 +15,9 @@ public class PlayerControllerScript : MonoBehaviour {
         animator = GetComponent<Animator>();
 	}
 
-    void OnTriggerEnter2D()
+    public void ToggleCombat()
     {
-        inCombat = true;
-        rb.velocity = new Vector2(3 * speed, -10f);
+        inCombat = !inCombat;
     }
 
     // Update is called once per frame
