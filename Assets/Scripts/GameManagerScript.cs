@@ -3,7 +3,8 @@ using System.Collections;
 
 public class GameManagerScript : MonoBehaviour {
     private static GameManagerScript manager = null;
-    public GameObject player, combatPlayer, combatController;
+    public GameObject player, combatPlayer, combatController, background;
+    private BackgroundControllerScript bgController;
     private PlayerControllerScript playerController;
     private CombatControllerScript combatPlayerController;
     private WordGeneratorScript wordGenerator;
@@ -21,13 +22,17 @@ public class GameManagerScript : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
+        print("init");
         cam.enabled = true;
         combatCam.enabled = false;
 
         playerController = player.GetComponent<PlayerControllerScript>();
         combatPlayerController = combatPlayer.GetComponent<CombatControllerScript>();
         wordGenerator = combatController.GetComponent<WordGeneratorScript>();
-	}
+        bgController = background.GetComponent<BackgroundControllerScript>();
+
+        bgController.Activate();
+    }
 
     void CombatTrigger ()
     {
@@ -37,6 +42,7 @@ public class GameManagerScript : MonoBehaviour {
     {
         if (manager != null && manager != this)
         {
+            print("wow");
             Destroy(this.gameObject);
             return;
         }
@@ -47,15 +53,30 @@ public class GameManagerScript : MonoBehaviour {
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public void ToggleCombat () {
+    public void EnterCombat () {
+        ChangeCamera();
+        print("enter");
+        playerController.ToggleCombat();
+        combatPlayerController.ToggleCombat();
+        wordGenerator.Activate();
+        bgController.Deactivate();
+    }
+
+    public void ExitCombat()
+    {
+        print("exit");
         ChangeCamera();
         playerController.ToggleCombat();
         combatPlayerController.ToggleCombat();
-        wordGenerator.Activate();   
+        bgController.Activate();
+        GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn");
+
+        player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
     }
 
     public void ChangeCamera ()
     {
+        print("cam change");
         cam.enabled = !cam.enabled;
         combatCam.enabled = !combatCam.enabled;
     }

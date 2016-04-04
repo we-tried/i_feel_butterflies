@@ -5,6 +5,7 @@ public class PlayerControllerScript : MonoBehaviour {
 
     Rigidbody2D rb;
     Animator animator;
+    public GameObject gm;
 
     bool inCombat = false;
     float speed = 15f;
@@ -29,4 +30,15 @@ public class PlayerControllerScript : MonoBehaviour {
             animator.SetFloat("Speed", move * speed);
         }        
 	}
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(!inCombat)
+        {
+            print("Player Collision: ENter combat ::::::" + col.gameObject.GetInstanceID().ToString());
+            Destroy(col.gameObject);
+            gm.GetComponent<GameManagerScript>().EnterCombat();
+            rb.velocity = new Vector2(0, 0);
+        }
+    }
 }

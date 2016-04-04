@@ -14,26 +14,35 @@ public class BackgroundControllerScript : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+    }
+
+    public void Activate()
+    {
         InvokeRepeating("Spawn", spawnTime, spawnTime);
+    }
+
+    public void Deactivate()
+    {
+        CancelInvoke("Spawn");
     }
 
     void Spawn()
     {
-        Vector2 spawnPos;
+        Vector3 spawnPos;
         GameObject cloud = cloud1;
 
         float velocity;
-        bool left = Random.Range(0,1) > 0.5;
+        bool left = Random.Range(0f,1f) > 0.5;
         float c = Random.Range(0, 4);
 
         if (left)
         {
             velocity = speed;
-            spawnPos = new Vector2(xLeft, Random.Range(yMin, yMax));
+            spawnPos = new Vector3(xLeft, Random.Range(yMin, yMax), 300);
         }
         else
         {
-            spawnPos = new Vector2(xRight, Random.Range(yMin, yMax));
+            spawnPos = new Vector3(xRight, Random.Range(yMin, yMax), 300);
             velocity = -speed;
         }
 
@@ -47,8 +56,9 @@ public class BackgroundControllerScript : MonoBehaviour {
             cloud = cloud4;
 
         GameObject i = Instantiate(cloud, spawnPos, Quaternion.identity) as GameObject;
-        Rigidbody2D rb = i.GetComponent<Rigidbody2D>();       
+        Rigidbody2D rb = i.GetComponent<Rigidbody2D>();
 
-        rb.velocity = new Vector2(velocity * 3, 0);
+        float r = Random.Range(1, 3);
+        rb.velocity = new Vector2(r*velocity, 0);
     }
 }

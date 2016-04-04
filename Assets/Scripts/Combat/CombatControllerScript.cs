@@ -46,13 +46,13 @@ public class CombatControllerScript : MonoBehaviour {
         if (tag == "Bad")
         {
             butterfly.Spawn();
+            c.GetComponentInChildren<Text>().text += " " + text;
 
         }
         else if (tag == "Good")
         {
             animator.SetTrigger("Talk");
             c.GetComponentInChildren<Text>().text += " " + text;
-
         }
         /*
         else if(tag == "Powerup")
