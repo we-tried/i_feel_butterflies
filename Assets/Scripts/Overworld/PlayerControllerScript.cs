@@ -26,9 +26,13 @@ public class PlayerControllerScript : MonoBehaviour {
         if(!inCombat)
         {
             float move = Input.GetAxis("Horizontal");
-            rb.velocity = new Vector2(move * speed, 0);
+            if (move >= 0)
+                rb.velocity = new Vector2(move * speed, 0);
+            else
+                rb.velocity = new Vector2(0, 0);
             animator.SetFloat("Speed", move * speed);
-        }        
+        }
+
 	}
 
     void OnTriggerEnter2D(Collider2D col)

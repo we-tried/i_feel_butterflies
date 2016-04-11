@@ -1,0 +1,11 @@
+﻿d
+dialogue 6 confront the bully
+
+g
+hi
+b
+uh
+
+s
+
+e

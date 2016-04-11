@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class WordGeneratorScript : MonoBehaviour {
     public GameObject wordPrefab, enemySprite;
-    public Sprite sprite2;
+    public Sprite sprite2, sprite3, sprite4, sprite5, sprite6;
     public float spawnTime = 0.5f;
     private bool left = true;
     private bool dialogue = true;
@@ -36,9 +36,25 @@ public class WordGeneratorScript : MonoBehaviour {
     void newFile()
     {
         string f = sceneCounter.ToString() + ".txt";
-        if(sceneCounter > 1)
+        if(sceneCounter == 2)
         {
             enemySprite.GetComponent<SpriteRenderer>().sprite = sprite2;
+        }
+        else if (sceneCounter == 3)
+        {
+            enemySprite.GetComponent<SpriteRenderer>().sprite = sprite3;
+        }
+        else if (sceneCounter == 4)
+        {
+            enemySprite.GetComponent<SpriteRenderer>().sprite = sprite4;
+        }
+        else if (sceneCounter == 5)
+        {
+            enemySprite.GetComponent<SpriteRenderer>().sprite = sprite5;
+        }
+        else if (sceneCounter == 6)
+        {
+            enemySprite.GetComponent<SpriteRenderer>().sprite = sprite6;
         }
         sceneCounter++;
         filePath = System.IO.Path.Combine(Application.streamingAssetsPath, f);

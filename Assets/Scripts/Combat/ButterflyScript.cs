@@ -9,17 +9,27 @@ public class ButterflyScript : MonoBehaviour {
     Vector2 p;
     Rigidbody2D rb;
     float speed = 5f;
-    float t, timer;    
+    float t, timer;
+    bool left;
 
     void Start()
     {
         timer = Random.Range(timermin, timermax);
         t = timer;
-        rb = GetComponent<Rigidbody2D>();        
+        rb = GetComponent<Rigidbody2D>();
+        left = true;    
     }
 
     void Update()
     {
+        if ((left && rb.velocity.x > 0) || (!left && rb.velocity.x < 0))
+        {
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+            left = !left;
+        }
+
         t += Time.deltaTime;
         if (t >= timer)
         {
@@ -37,7 +47,7 @@ public class ButterflyScript : MonoBehaviour {
         {
             rb.velocity = new Vector3(-rb.velocity.x, rb.velocity.y, 0);
         }
-        if (p.y < miny && p.y > maxy)
+        if (p.y < miny || p.y > maxy)
         {
             rb.velocity = new Vector3(rb.velocity.x, -rb.velocity.y, 0);
         }

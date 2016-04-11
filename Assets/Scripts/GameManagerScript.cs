@@ -9,6 +9,8 @@ public class GameManagerScript : MonoBehaviour {
     private CombatControllerScript combatPlayerController;
     private WordGeneratorScript wordGenerator;
     public Camera cam, combatCam;
+
+    int sceneCounter = 1;
 	
     public static GameManagerScript Manager
     { 
@@ -69,9 +71,21 @@ public class GameManagerScript : MonoBehaviour {
         playerController.ToggleCombat();
         combatPlayerController.ToggleCombat();
         bgController.Activate();
-        GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn");
 
-        player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
+        sceneCounter++;
+
+        if (sceneCounter == 2)
+        {
+            GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn1");
+
+            player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
+        }
+        if (sceneCounter == 5)
+        {
+            GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn2");
+
+            player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
+        }
     }
 
     public void ChangeCamera ()
