@@ -1,11 +1,30 @@
 ﻿d
-dialogue 2 with friend
+Moring Nate! Hey... When are you gonna give back my games?
 
-g
-Hey,
 b
-uh
+Um...
+b
+Sorry.
+g
+Soon.
+s
 
+d
+Soon? You promise? 
+
+b
+Sure.
+b
+Whatever.
+g
+Yes!
+s
+
+d
+Well please do! Sometimes you big people are so irresponsible.
+
+b
+You don't know a thing!
 s
 
 e

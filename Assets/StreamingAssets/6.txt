@@ -1,11 +1,41 @@
 ﻿d
-dialogue 6 confront the bully
+Alright homie! It's time.
 
-g
-hi
 b
-uh
-
+(give up)
+g
+Yes
+b
+I
+g
+it
+b
+am
+g
+is
+b
+going
+g
+time.
+b
+to
+g
+Your
+b
+die.
+g
+time.
+b
+Right
+g
+To
+b
+now.
+g
+suck it!
 s
+
+d
+...
 
 e
