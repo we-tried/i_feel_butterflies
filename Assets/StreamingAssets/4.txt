@@ -1,12 +1,12 @@
 ﻿d
-Um... er. Big guy?
+Um... er. Hey.
 
 g
 Yes?
 s
 
 d
-Will you walk me inside? I mean... Will you I'm scared.
+Will you walk me inside? I mean... I'm scared.
 
 b
 Uh.
@@ -15,7 +15,7 @@ Okay.
 s
 
 d
-Thanks it's a huge favor there's this person and I have to eat trash and it's all very strange you know?
+Thanks it's a huge favor there's this bully and he wants me to eat trash and it's scary you know?
 
 b
 What?
@@ -28,14 +28,18 @@ Sorry.
 s
 
 d
-I mean it's okay I'll be fine, but sometimes... Sometimes things are hard.
+I mean it's okay I'll be fine, but sometimes... Sometimes it's hard.
 
 g
 Yeah...
+g
+I'm scared too.
+g
+We can do it!
 s
 
 d
-Well thanks bye! Hope things aren't hard for you!
+Well thanks bye! I hope things go well today for you!
 
 b
 They'll be hard!

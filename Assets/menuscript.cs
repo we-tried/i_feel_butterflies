@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System;
 
 public class menuscript : MonoBehaviour {
 
@@ -15,7 +16,16 @@ public class menuscript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.UnloadScene(0);
+            try
+            {
+                SceneManager.UnloadScene(1);
+            }
+            catch (Exception e) { }
+
             SceneManager.LoadScene("Game");
+        }
     }
 
     void spawn()
@@ -24,7 +34,7 @@ public class menuscript : MonoBehaviour {
         spawn.z = 20;
         GameObject word = Instantiate(ButterflyPrefab, spawn, Quaternion.identity) as GameObject;
 
-        float c = Random.Range(0, 4);
+        float c = UnityEngine.Random.Range(0, 4);
         Animator a = word.GetComponent<Animator>();
         if (c < 1)
             a.Play("green");

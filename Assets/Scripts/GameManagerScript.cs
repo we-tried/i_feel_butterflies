@@ -52,7 +52,6 @@ public class GameManagerScript : MonoBehaviour {
         {
             manager = this;
         }
-        DontDestroyOnLoad(this.gameObject);
     }
 
     public void EnterCombat () {

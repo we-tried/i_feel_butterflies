@@ -3,6 +3,7 @@ using System.IO;
 using System.Text;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WordGeneratorScript : MonoBehaviour {
     public GameObject wordPrefab, enemySprite;
@@ -30,7 +31,6 @@ public class WordGeneratorScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         gm = gmo.GetComponent<GameManagerScript>();
-        // draw correct character as enemy
     }
 
     void newFile()
@@ -55,6 +55,7 @@ public class WordGeneratorScript : MonoBehaviour {
         else if (sceneCounter == 6)
         {
             enemySprite.GetComponent<SpriteRenderer>().sprite = sprite6;
+            speed = 13f;
         }
         sceneCounter++;
         filePath = System.IO.Path.Combine(Application.streamingAssetsPath, f);
@@ -74,6 +75,9 @@ public class WordGeneratorScript : MonoBehaviour {
         ptext.text = "";
         etext.text = "";
         gm.ExitCombat();
+
+        if(sceneCounter == 7)
+            SceneManager.LoadScene("Menu");
     }
 
     void Spawn (string s, bool good) {
