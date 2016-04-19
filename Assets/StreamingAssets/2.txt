@@ -6,27 +6,42 @@ Um...
 b
 Sorry.
 g
-Soon.
+Soon!
 b
 Hopefully.
+b
+I'm the worst.
 s
 
 d
-Soon? You promise? 
+Please promise me soon!
 
 b
 Sure.
 b
-Whatever.
+Fine...
+b
+Fine!
 g
-Yes!
+Fine.
+b
+I suck.
+g
+I'm sorry.
 s
 
 d
-Well please do! Sometimes you people are so irresponsible.
+Well, yeah, please do! But... are you okay? You're acting odd.
 
 b
-You don't know a thing!
+No. Yeah.
+b
+It's nothing.
+b
+Totally fine! Sorry.
 s
+
+d
+Mm... Okay then... Nate! The games!
 
 e

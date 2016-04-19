@@ -1,20 +1,49 @@
 ﻿d
-That's a nice thing to do! Helping that kid out!
+Aw! What a thing! You kids!
 
 b
 Um!
 b
-Ah!
+What?
 b
-Teacher!
+I'm sorry.
+b
+What?
+b
+Did you...?
+b
+Me?
 b
 No!
-b
-Bye!
 s
 
 d
-You okay sonny? No need to be nervous. Except... Well... x y z.
+Hah woah! Sonny! Steady... Just sayin', that was swell!
+
+b
+What?
+b
+Swell?
+g
+Good?
+s
+
+d
+You and Duk, that kid! Two amigos! In these dusty halls... (looks around)
+
+g
+(look around)
+s
+
+d
+Well... Keep it up Sherrif! (leans in to whisper) And btw...
+
+g
+(nod)
+s
+
+d
+X Y Z. (winks)
 
 b
 (pee your pants)
@@ -23,6 +52,6 @@ g
 s
 
 d
-Attaboy! Now stay safe! Make friends!
+Attaboy! Now stay safe!
 
 e

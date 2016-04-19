@@ -4,12 +4,11 @@ Morning self! How are we doing today?
 g
 Alright.
 g
-You?
-
+Us?
 s
 
 d
-Not bad. It should be a good day at school dont you think?
+Well we're not bad. It should be a good day at school don't you think?
 
 b
 I don't know.
@@ -19,34 +18,47 @@ s
 
 
 d
-It'll be fine! I mean. What's the worst that could happen?!
+It'll be fine! I mean. What's the worst that could happen to us?!
 
 
 g
 Well...
 b
-Everything.
+Everything!
 b
-Why am I so bad with words?
+I can't talk.
 b
-...bad with everything.
+...I'm bad at school.
 b
-School is scary.
+...bad at everything!
+b
+Do I have to?
 s
 
 
 d
-It's just one day. We'll make it!
+Buddy! Woah! Settle that mind! It's one day. We'll make it.
+
 
 b
 Maybe...
 g
 Maybe!
 g
-I can do it.
+Alright!
+g
+I can do it!
 s
 
 d
-Come on! Let's go!
+You can do it! You go cowboy!
 
+g
+Thanks.
+g
+We're silly!
+s
+
+d
+;)
 e

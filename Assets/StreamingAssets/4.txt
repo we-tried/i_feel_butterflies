@@ -6,49 +6,75 @@ Yes?
 s
 
 d
-Will you walk me inside? I mean... I'm scared.
+Will you walk me inside? I mean... I'm sorry.
 
-b
-Uh.
 g
-Okay.
+What do you want?
+g
+It's right there!
+g
+Kid, can't you see?
 s
 
 d
-Thanks it's a huge favor there's this bully and he wants me to eat trash and it's scary you know?
+I mean. It'd be a huge favor. There's this bully and he wants me to eat trash and it's scary you know?
 
-b
-What?
-b
-Um...
-b
-I can't help.
 g
-Sorry.
+Sure.
+g
+I know.
+b
+But...
+b
+Sorry, I couldn't.
 s
 
 d
-I mean it's okay I'll be fine, but sometimes... Sometimes it's hard.
+I mean it's okay I'll be fine! You don't have to. Don't! I'm sorry.
 
 g
-Yeah...
+Woah!
 g
-I'm scared too.
+Buddy!
 g
-We can do it!
+It's okay!
+g
+We can make it.
+g
+Follow me!
 s
 
 d
-Well thanks bye! I hope things go well today for you!
+...
+
+g
+Don't worry!
+g
+I know!
+g
+I know how it is.
+g
+It's though.
+g
+You can talk to me tho.
+g
+Talk any time! Alright?
+s
+
+d
+...
 
 b
-They'll be hard!
-b
-They always are!
-b
-Especially now!
+Well...
 g
-Take care!
+We're here!
+g
+Later cowboy!
+b
+Take care my friend.
 s
+
+d
+Thank you my friend! (sprints away)
 
 e
