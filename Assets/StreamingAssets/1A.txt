@@ -1,0 +1,399 @@
+﻿s
+punk
+t
+
+r
+b
+say hi
+
+c
+Hi Sean.
+
+z
+
+d
+Hey Nate. What's up?
+
+c
+Oh... not too much.
+
+b
+I sound timid
+b
+timid
+b
+timid
+p
+5
+
+bs
+A
+1
+	
+bbA
+
+z
+	
+s
+you
+t
+
+d
+Come on! You sound weak.
+d
+This isn't even real and you can't look him in the eye!
+p
+1
+d
+Try again.
+	
+c
+Okay...
+
+s
+punk
+t
+
+	
+r
+b
+say hi
+	
+c
+Hi Sean!
+
+d
+Hey Nate! Sup?
+
+c
+Nothing dude!
+
+b
+I sound phony
+b
+phony
+
+bs
+B
+1
+		
+bbB
+
+z
+
+s
+you
+t
+		
+d
+Guh!
+d
+He sees right through you "dude"!
+p
+1
+d
+Again!
+
+c
+Alright.
+
+s
+punk
+t
+
+b
+I suck
+		
+		
+r
+b
+say hi
+		
+
+c
+Hi Sean...
+
+b
+bad!
+
+d
+Hi Nate. What's up?
+		
+b
+bad!
+
+c
+Nothing.
+c
+Just going home.
+		
+b
+bad!
+b
+bad!
+
+c
+Going to watch the new Fly Rovers episode.
+
+d
+Cool! I like The Fly Rovers.
+
+		
+u
+C
+I know
+		
+u
+D
+favorite rover?
+
+p
+4
+
+us
+C
+c
+I know. You have that cool shirt.
+b
+creepy
+b
+creepy
+b
+weird
+b
+creepy!
+ue
+
+us
+D
+c
+Um... Do you have a favorite?
+b
+awkward
+d
+No. Not really... Why?
+b
+stupid
+b
+of course not
+c
+I don't know...
+b
+awkward
+ue
+
+c
+well if you'd like...
+r
+b
+join me?
+c
+...you can watch it with me.
+
+b
+desperate
+
+d
+Hm... Let me think...
+	
+be
+
+bgB
+
+z
+
+c
+Just 'bout to head home.
+b
+phony
+c
+Gonna watch the new Fly Rovers episode.
+
+d
+No way! I love The Fly Rovers!
+d
+Fly for life!
+
+c
+Yeah! Fly for life!
+
+b
+stupid
+b
+hear yourself?
+b
+he'd never say that
+
+bs
+C
+2
+
+bbC
+
+c
+this is so dumb.
+
+s
+you
+t
+
+d
+yeah.
+
+c
+We're never gonna be friends.
+c
+I don't know what I was thinking.
+
+d
+I mean... you never know.
+d
+And you've got nothing to lose.
+d
+Might as well ask.
+
+c
+I guess.
+
+s
+punk
+t
+
+r
+b
+be my friend?
+
+c
+Be my friend?
+
+b
+stupid
+
+d
+Mm...
+be
+
+bgC
+
+c
+Hey! Since I'm about to go watch them...
+r
+b
+join me?
+c
+Would you like to join?
+
+d
+Sure!
+
+g
+yay!
+
+c
+Really?!
+b
+desprate
+c
+Alright! Shall we...
+
+be
+bee
+
+be
+bee
+
+be
+
+bgA
+	
+c
+Just headed home.
+c
+Going to watch the new Fly Rovers episode.
+	
+d
+No way! I love The Fly Rovers!
+
+u
+A
+I know
+	
+u
+B
+favorite rover?
+
+p
+4
+
+us
+A
+c
+I know! You have that cool shirt!
+b
+creepy?
+ue
+
+us
+B
+c
+Do you have a favorite?
+d
+Teal Rover! Definitely! You?
+c
+Spotted Rover. She's fierce.
+b
+he knows
+ue
+
+c
+Well since I'm about to watch it...
+r
+b
+join me?
+c
+Would you like to join me?
+
+
+d
+Sure!
+
+g
+yay!
+
+c
+Really?!
+b
+desprate
+c
+Guess I'll see you at...
+
+be
+
+bee
+
+s
+woman3
+f
+
+d
+Hey honey! Are you almost ready?
+d
+It's almost time to leave!
+
+b
+I'll be late!
+b
+Airhead!
+b
+Everyone will stare!
+
+p
+2
+
+c
+I'm coming!	
+
+p
+1
+
+e

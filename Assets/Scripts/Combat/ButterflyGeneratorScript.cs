@@ -12,10 +12,10 @@ public class ButterflyGeneratorScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
-    public void Spawn ()
+	public void Spawn ()
     {
         Vector3 spawn = gameObject.GetComponent<Rigidbody2D>().position;
         spawn.z = 20;

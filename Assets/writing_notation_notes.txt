@@ -1,0 +1,42 @@
+WRITING NOTATIION NOTES
+
+n = neutral
+b = bad, it passing leads to +1 butterflies
+g = good, it passing leads to -1 butterfly
+
+c = character's outcome either way
+d = npc's response
+
+s = swap enemy sprite
+   "Name" = name of sprite to swap to
+
+r = repeating
+   ("n"/"b"/"g") = type
+
+p = pause
+   # = int seconds
+
+s = swap enemy sprite
+   "Name" = sprite to change to
+   "t"/"f" = if you want it to be faded
+
+z = zero out b, for #
+
+bs = branch begins
+   id = identifying symbol
+   # = if b >= # butterflies --> bb branch, 
+       else --> bg branch
+be = branch ends
+bee = branching ends
+
+bg[sym] = good branch begins for that sym
+bb[sym] = bad branch begins for that sym
+
+u = unique branch
+   id = identifying string
+   "line" = that flies at you
+us = unique branch
+   id = identifying string
+ue = unique branch end
+
+e = end

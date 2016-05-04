@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerControllerScript : MonoBehaviour {
 
     Rigidbody2D rb;
+	SpriteRenderer sr;
     Animator animator;
     public GameObject gm;
 
@@ -12,6 +13,7 @@ public class PlayerControllerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 	}
@@ -26,11 +28,13 @@ public class PlayerControllerScript : MonoBehaviour {
         if(!inCombat)
         {
             float move = Input.GetAxis("Horizontal");
-            if (move >= 0)
-                rb.velocity = new Vector2(move * speed, 0);
-            else
-                rb.velocity = new Vector2(0, 0);
-            animator.SetFloat("Speed", move * speed);
+			rb.velocity = new Vector2(move * speed, 0);
+
+			if (move > 0)
+				sr.flipX = false;
+			else if (move < 0)
+				sr.flipX = true;
+			animator.SetFloat("Speed", Mathf.Abs(move) * speed);
         }
 
 	}
