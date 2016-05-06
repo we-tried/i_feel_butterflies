@@ -355,7 +355,9 @@ stupid
 
 d
 Mm...
+
 be
+C
 
 bgC
 
@@ -381,12 +383,17 @@ c
 Alright! Shall we...
 
 be
-bee
+C
+
+beeC
 
 be
-bee
+B
+
+beeB
 
 be
+A
 
 bgA
 	
@@ -479,6 +486,6 @@ c
 I'm coming!	
 
 p
-1
+2
 
 e
