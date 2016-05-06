@@ -13,11 +13,16 @@ public class CombatControllerScript : MonoBehaviour {
     bool inCombat = false;
 	public bool altMode;
 	public WordGeneratorScript wgs;
+	[SerializeField] private AudioSource boingSound;
+	bool collidingTop;
+	bool collidingBottom;
 	 
     // Use this for initialization
     void Start()
     {
 		//if (!altMode)
+		collidingTop = false;
+		collidingBottom = false;
 			butterfly = GetComponent<ButterflyGeneratorScript>();
 		rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -29,8 +34,15 @@ public class CombatControllerScript : MonoBehaviour {
     {
         if (inCombat)
         {
-            float move = Input.GetAxis("Vertical");
-            rb.velocity = new Vector3(0, move * speed,0);
+			float move = Input.GetAxis("Vertical");
+			if (!altMode) {
+				rb.velocity = new Vector3 (0, move * speed, 0);
+			} else {
+				if (move > 0 && collidingTop == false)
+					rb.velocity = new Vector3 (0, move * speed, 0);
+				if (move < 0 && collidingBottom == false)
+					rb.velocity = new Vector3 (0, move * speed, 0);
+			}
         }
     }
 
@@ -54,7 +66,8 @@ public class CombatControllerScript : MonoBehaviour {
 			bc.enabled = false;
 
 			ws.hit = true;
-
+			boingSound.pitch = Random.Range (.8f, 1.2f);
+			boingSound.Play ();
 			if (tag == "Neutral") {
 			} else if (tag == "Bad") {
 			} else if (tag == "Good") {
@@ -75,7 +88,7 @@ public class CombatControllerScript : MonoBehaviour {
 				WordGeneratorScript.repeat = false;
 			Destroy (col.gameObject); 
 			animator.SetTrigger ("Talk");
-			c.GetComponentInChildren<Text> ().text += " " + text;
+			//c.GetComponentInChildren<Text> ().text += " " + text;
 
 			if (tag == "Neutral") {
 				if (WordGeneratorScript.repeat == true)
@@ -101,6 +114,21 @@ public class CombatControllerScript : MonoBehaviour {
 
         }
         */
+		} else {
+			if (col.tag == "TopIWall")
+				collidingTop = true;
+			if (col.tag == "BottomIWall")
+				collidingBottom = true;
 		}
+				
     }
+	void OnTriggerExit2D(Collider2D col)
+	{
+		if (altMode) {
+			if (col.tag == "TopIWall")
+				collidingTop = false;
+			if (col.tag == "BottomIWall")
+				collidingBottom = false;
+		}
+	}
 }

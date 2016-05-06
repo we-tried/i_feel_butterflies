@@ -6,7 +6,8 @@ using System.Collections;
 public class BookendControllerScript : MonoBehaviour {
 
 	public GameManagerScript gms;
-	public Text beginning, ending, extra1, theEnd, keyPress;
+	public GameObject credits;
+	public Text beginning, ending, extra1, extra2, theEnd, keyPress;
 	public Image background;
 	public int sceneCounter = 1;
     bool activated = true;
@@ -16,6 +17,7 @@ public class BookendControllerScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		sceneHandler ();
+		credits.SetActive (false);
 	}
 
 	public IEnumerator ToggleActivated(float waitTime)
@@ -44,19 +46,19 @@ public class BookendControllerScript : MonoBehaviour {
 				background.enabled = true;
 				beginning.enabled = true;
 				keyPress.enabled = true;
-				keyPress.text = "next [any key]";
-			}
-			else if (sceneCounter == 2) {
+				keyPress.text = "continue [any key]";
+			} else if (sceneCounter == 2) {
 				StartCoroutine (FadeOutText (1, beginning, 0f));
 				StartCoroutine (FadeInText (2, extra1, 1f));
 				keyPress.text = "begin [any key]";
 			} else if (sceneCounter == 3) {
 				StartCoroutine (FadeOutImage (2, background, .5f));
-				StartCoroutine (FadeOutText (2, extra1, .5f));
+				StartCoroutine (FadeOutText (1, extra1, 0));
 				StartCoroutine (ToggleActivated (2.5f));
 				keyPress.enabled = false;
 			} else if (sceneCounter == 4) {
 				ToggleActivated (0);
+				keyPress.enabled = true;
 				StartCoroutine (FadeInImage (2, background, 0f));
 				StartCoroutine (FadeInText (2, ending, 1f));
 				StartCoroutine (FadeInText (2, keyPress, 0f));
@@ -65,10 +67,21 @@ public class BookendControllerScript : MonoBehaviour {
 
 			} else if (sceneCounter == 5) {
 				StartCoroutine (FadeOutText (1, ending, 0f));
-				StartCoroutine (FadeInText (2, theEnd, 1f));
-				keyPress.text = "main menu [any key]";
+				StartCoroutine (FadeInText (2, extra2, 1f));
+				keyPress.text = "continue [any key]";
 
 			} else if (sceneCounter == 6) {
+				StartCoroutine (FadeOutText (1, beginning, 0f));
+				StartCoroutine (FadeInText (2, theEnd, 1f));
+				keyPress.text = "credits [any key]";
+			}
+			else if (sceneCounter == 7) {
+				theEnd.gameObject.SetActive (false);
+				credits.SetActive (true);
+				keyPress.text = "main menu [any key]";
+			}
+
+			else if (sceneCounter == 8) {
 				SceneManager.LoadScene ("Menu");
 			}
 		} else {
@@ -84,6 +97,7 @@ public class BookendControllerScript : MonoBehaviour {
 				keyPress.enabled = false;
 			} else if (sceneCounter == 3) {
 				ToggleActivated (1);
+				keyPress.enabled = true;
 				StartCoroutine (FadeInImage (2, background, 0f));
 				StartCoroutine (FadeInText (2, ending, 1f));
 				StartCoroutine (FadeInText (2, keyPress, 0f));
@@ -92,9 +106,15 @@ public class BookendControllerScript : MonoBehaviour {
 			} else if (sceneCounter == 4) {
 				StartCoroutine (FadeOutText (1, ending, 0f));
 				StartCoroutine (FadeInText (2, theEnd, 1f));
-				keyPress.text = "main menu [any key]";
+				keyPress.text = "credits [any key]";
 
 			} else if (sceneCounter == 5) {
+				theEnd.gameObject.SetActive (false);
+				credits.SetActive (true);
+				keyPress.text = "main menu [any key]";
+			}
+
+			else if (sceneCounter == 6) {
 				SceneManager.LoadScene ("Menu");
 			}
 		}

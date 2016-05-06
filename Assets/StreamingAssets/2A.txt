@@ -1,0 +1,177 @@
+﻿s
+woman3
+f
+
+z
+
+d
+Ready young man?
+
+c
+Yeah mom...
+c
+But...
+c
+Do I have to go to school today?
+
+d
+Honey... Why? Don't you want to go to school?
+d
+Is it that test you're worried about?
+c
+No... It's not that.
+
+u
+A
+worried about you
+
+b
+worried about making friends
+
+c
+I don't know...
+
+p
+2
+
+
+bs
+A
+1
+
+bbA
+
+us
+A
+c
+I mean, what if something happens to you?
+c
+While I'm at school.
+
+d
+Dear, nothing's gonna happen to me...!
+
+c
+Well, how do you know?!
+
+d
+Has anything ever happened to me before?
+
+c
+Well...
+
+
+c
+...no. But...
+
+d
+And today will be exactly the same!
+
+c
+Okay... well... also...
+ue
+
+c
+I've been feeling nervous again about making a friend.
+
+d
+I understand... Who are they?
+
+c
+Sean. He sits by Frankie and Will and I don't know...
+p
+1
+c
+He likes a lot of the stuff I do.
+c
+And he's cool
+
+d
+Is he nice?
+
+c
+...Yeah. He's nice.
+
+d
+Well then I'm sure you'll get along!
+d
+Just talk to him and it'll be fine.
+b
+not that easy
+c
+Okay... right. I know.
+
+be
+A
+
+bgA
+
+us
+A
+c
+I mean, what if something happens to you?
+c
+While I'm at school
+
+d
+Dear, nothing's gonna happen to me...!
+
+c
+Well, how do you know?!
+
+d
+Has anything ever happened to me before?
+
+c
+Well...
+
+p
+1
+
+c
+...no. But...
+
+d
+And today will be exactly the same!
+
+c
+Okay. Well it's just...
+
+d
+What else?
+ue
+
+c
+...It's nothing.
+
+d
+Hm. Alright then.
+
+be
+A
+
+beeA
+
+d
+Should we get to school?
+
+c
+Yeah. Fine.
+
+d
+Want me to walk you?
+
+c
+No i'll be fine.
+
+d
+Alright. I love you dear.
+
+c
+Love you mom.
+p
+1
+c
+bye
+
+e

@@ -27,7 +27,7 @@ public class WordGeneratorScript : MonoBehaviour {
     public GameObject gmo;
     private GameManagerScript gm;
 
-    private int sceneCounter = 1; 
+    private int sceneCounter = 1; //!!!USUALLY 1!!!
 
     public float yMin;
     public float yMax;
@@ -63,15 +63,21 @@ public class WordGeneratorScript : MonoBehaviour {
         	f = sceneCounter.ToString() + ".txt";
 		else
 			f = sceneCounter.ToString() + "A.txt";
-		
-        if(sceneCounter == 2)
+		if(sceneCounter == 1)
+		{
+			speed = 5f;
+			enemySprite.GetComponent<SpriteRenderer>().sprite = you;
+			//speed = 10f;
+		}
+        else if(sceneCounter == 2)
         {
-            enemySprite.GetComponent<SpriteRenderer>().sprite = woman4;
-			speed = 10f;
+            enemySprite.GetComponent<SpriteRenderer>().sprite = woman3;
+			speed = 2.2f;
         }
         else if (sceneCounter == 3)
         {
-            enemySprite.GetComponent<SpriteRenderer>().sprite = punk;
+			speed = 5f;
+            enemySprite.GetComponent<SpriteRenderer>().sprite = you;
         }
         else if (sceneCounter == 4)
         {
@@ -255,7 +261,8 @@ public class WordGeneratorScript : MonoBehaviour {
 				}
 			} 
 		else if (s == "be") { //Branching End
-			while (s != "bee")
+			string id = stream.ReadLine ();
+			while (s != "bee" + id)
 				s = stream.ReadLine ();
 		} 
 

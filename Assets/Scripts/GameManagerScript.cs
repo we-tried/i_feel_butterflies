@@ -8,6 +8,9 @@ public class GameManagerScript : MonoBehaviour {
     public GameObject player, combatPlayer, combatController, background, bookend;
 	[SerializeField] private AudioSource overworldMusic;
 	[SerializeField] private AudioSource combatMusic;
+	[SerializeField] private AudioSource outsideAmbient;
+	//[SerializeField] private AudioSource schoolAmbient;
+	[SerializeField] private AudioSource schoolBellSound;
 	private BookendControllerScript beController;
     private BackgroundControllerScript bgController;
     private PlayerControllerScript playerController;
@@ -75,6 +78,7 @@ public class GameManagerScript : MonoBehaviour {
     public void EnterCombat () 
 	{
 		overworldMusic.Stop ();
+		outsideAmbient.Pause ();
 		combatMusic.Play ();
        //ChangeCamera();
         print("enter");
@@ -123,6 +127,7 @@ public class GameManagerScript : MonoBehaviour {
     {
 		combatMusic.Stop ();
 		overworldMusic.Play ();
+		outsideAmbient.Play ();
         print("exit");
         //ChangeCamera();
         playerController.ToggleCombat();
@@ -135,24 +140,35 @@ public class GameManagerScript : MonoBehaviour {
 
         sceneCounter++;
 
-        if (sceneCounter == 2)
+        if (sceneCounter == 3)
         {
             GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn1");
 
             player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
         }
-        if (sceneCounter == 5)
-        {
-            GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn2");
+		if (sceneCounter == 4) {
+			beController.AddScene ();
+		}
 
-            player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
-        }
     }
+
+	public void Transport1()
+	{
+		schoolBellSound.Play ();
+		outsideAmbient.Stop ();
+		//schoolAmbient.Play ();
+		GameObject[] spawns = GameObject.FindGameObjectsWithTag("Spawn2");
+		player.GetComponent<Rigidbody2D>().position = spawns[0].transform.position;
+	}
 
 	public void BookendCamChange()
 	{
 		print("be cam change");
 		bookendCam.enabled = !bookendCam.enabled;
+		if (bookendCam.enabled == false)
+			overworldMusic.Play ();
+		else
+			overworldMusic.Stop ();
 	}
     public void ChangeCamera ()
     {

@@ -1,4 +1,84 @@
 ﻿s
+you
+t
+
+d
+G'Morning you...
+d
+So...
+d
+Think you'll be able to do it today?
+
+b
+probably not
+b
+so difficult
+b
+he's so cool
+u
+Z
+why this fear?
+
+bs
+Z
+1
+
+bbZ
+c
+I doubt it. 
+
+d
+Yeah, me too...
+
+be
+Z
+
+bgZ
+
+c
+I don't know... maybe!
+
+be
+Z
+
+beeZ
+
+us
+Z
+c
+Why do i have to feel like this?
+c
+I hate it!
+c
+No one else is this scared!
+
+d
+I don't know...
+p
+1
+d
+I really don't.
+
+b
+No one knows
+g
+maybe mom knows
+
+p
+2
+
+ue
+
+d
+Well... should we at least practice?
+
+c
+Sure...
+
+d
+Okay...
+
+s
 punk
 t
 
@@ -32,11 +112,11 @@ A
 	
 bbA
 
-z
-	
 s
 you
 t
+
+z
 
 d
 Come on! You sound weak.
@@ -68,18 +148,20 @@ Hey Nate! Sup?
 c
 Nothing dude!
 
+z
+
 b
 I sound phony
 b
 phony
+p
+5
 
 bs
 B
 1
 		
 bbB
-
-z
 
 s
 you
@@ -100,6 +182,8 @@ Alright.
 s
 punk
 t
+
+z
 
 b
 I suck
@@ -368,8 +452,9 @@ c
 Guess I'll see you at...
 
 be
+A
 
-bee
+beeA
 
 s
 woman3
@@ -388,7 +473,7 @@ b
 Everyone will stare!
 
 p
-2
+1
 
 c
 I'm coming!	

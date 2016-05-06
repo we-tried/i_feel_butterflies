@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using System;
 
 public class menuscript : MonoBehaviour {
-
+	public bool AltMode;
     public GameObject ButterflyPrefab;
 
     // Use this for initialization
@@ -23,8 +23,10 @@ public class menuscript : MonoBehaviour {
                 SceneManager.UnloadScene(1);
             }
             catch (Exception e) { }
-
-            SceneManager.LoadScene("Game");
+			if (!AltMode)
+            	SceneManager.LoadScene("Game");
+			else
+				SceneManager.LoadScene("GameAlt");
         }
     }
 

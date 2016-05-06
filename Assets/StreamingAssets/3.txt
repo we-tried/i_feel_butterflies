@@ -1,32 +1,589 @@
-﻿d
-Hey! Squirt!
+﻿s
+you
+t
 
-b
-Ah!
-b
-(pee pants)
-b
-AH!
-s
+z
 
 d
-You're juice!
+Hey buddy.
+d
+Listen... everything's going to be alright today.
+b
+nope
+d
+Just like mom said.
+d
+We'll just keep our cool.
+b
+nope
+d
+Like everyone else.
+b
+no
+b
+no
+d
+I know what you're thinking...
+b
+no
+d
+but it'll be fine.
+b
+it will not be
+d
+today will be different.
 
-b
-NOOOOOOOOOOOOOO!!!!
-b
-AAAAHHHHHHHHHHHHHHHHHHHHH!!!
-b
-AH!
-b
-AH!
-b
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHH!
-b
-AH!
-s
+bs
+A
+3
+
+bbA
+
+c
+No it will not!
 
 d
-HEHEHEH... ^-^!
+Yeah... I was lying.
+d
+we're screwed.
+
+be
+A
+
+bgA
+
+c
+If you say so!
+
+d
+That's it!
+
+be
+A
+
+beeA
+
+s
+man2
+f
+
+d
+Hey there sport!
+b
+teacher!
+d
+Looks like we're late...
+b
+what do you want?
+g
+stay calm
+d
+Listen, I'm a subsitute for Ms. Jerz.
+p
+1
+d
+I was wondering.
+d
+You wouldn't know where her class is, would you?
+z
+b
+I don't know
+d
+p
+1
+My sheet got messed up.
+b
+why am I freaking?
+p
+1
+d
+Do you?
+
+p
+1
+
+bs
+B
+1
+
+bbB
+
+c
+Nope! Sorry!
+
+d
+Ah, oh well. Thanks anyways!
+d
+Gotta go! Later kid!
+d
+And get to class! Aha!
+
+s
+you
+t
+
+p
+1
+
+d
+Jeeze...
+d
+What was that about?
+d
+You know where her class is!
+
+c
+I know...
+c
+I don't know... I panicked.
+
+b
+stupid
+
+be
+B
+
+bgB
+
+c
+Uh...
+c
+Yeah, it's right down the hall. 
+c
+Just past the gym.
+c
+On the left there.
+
+d
+Perfect!
+d
+Thanks kid! Later!
+d
+And get to class! Aha!
+
+s
+you
+t
+
+p
+1
+
+d
+Whatever guy...
+c
+Heh... Yeah.
+d
+Well you handled that well!
+
+z
+g
+I did
+g
+I did!
+
+p
+3
+
+bs
+C
+0
+
+bbC
+
+c
+For once...
+
+be
+C
+
+bgC
+
+c
+Yeah... I did!
+
+be
+C
+
+beeC
+
+d
+See? Maybe today we'll be better!
+
+c
+Thanks...
+
+be
+B
+
+beeB
+
+s
+punk
+f
+
+d
+Hey Nate... Who're you talking to?
+z
+b
+run!
+b
+he heard
+c
+No one!
+b
+can't believe this
+b
+so stupid
+g
+calm
+c
+Sorry. I'm insane...
+b
+don't say that!
+b
+stupid
+g
+be calm
+c
+What's up?
+g
+be calm
+d
+Hah! Um... I don't know!
+d
+Sorta nervous for this math test today...
+g
+be calm
+d
+You ready?
+
+p
+2
+
+bs
+D
+2
+
+bbD
+
+c
+What? Yeah! Math's easy.
+
+d
+Yeah? Well...
+d
+Not for me!
+b
+I'm stupid
+d
+Anyways... I should get to class...
+
+c
+Right. Same.
+
+be
+D
+
+bgD
+
+c
+Yeah, I think so.
+
+d
+I know... You're good at math.
+
+c
+You're not?
+
+d
+No. Not at all. That's why I'm late.
+d
+I had stomach cramps all night
+d
+Just stress Dad says.
+
+u
+Y
+I stress
+
+p
+4
+
+us
+Y
+c
+I stress too.
+b
+don't tell him
+
+d
+Yeah? Huh.
+b
+he's weirded out
+d
+But you're good at math?
+
+c
+Yeah... I know...
+z
+b
+speak!
+p
+2
+bs
+G
+1
+bbG
+c
+It's not that.
+be
+G
+beeG
+p
+1
+d
+Well... We should get to class!
+d
+So I don't stress more!
+
+c
+Yeah.
+
+be
+D
+
+beeD
+
+g
+time to ask?
+
+p
+1
+
+z
+
+b
+ask to hang out
+
+p
+1
+
+b
+ask
+
+b
+ask
+
+d
+So... anyways! 
+b
+ask
+d
+Did you hear about Dylan's older brother?
+
+u
+W
+reply
+
+b
+ask
+
+p
+1
+
+us
+W
+c
+Um... No.
+ue
+
+d
+I guess his parents were on vacation and they get a call from a neighbor...
+
+b
+ask!
+
+d
+...saying they're looking through the window at him and his friends drinking...
+
+b
+ask!
+
+d
+...so his parents come home and let's just say, they were not happy!
+
+b
+ask!!
+
+d
+I guess his brother was in tears...
+
+b
+ask!!!
+
+d
+Crazy...
+d
+My brother would never do that.
+
+bs
+S
+1
+
+bbS
+
+c
+Listen, would you like to come over and watch The Fly Rovers or something sometime?
+b
+no
+c
+I know you like that show because of that shirt and thought it'd be cool.
+b
+bad
+c
+Just sometime maybe? You don't have to...
+b
+so bad
+b
+so so bad
+
+d
+Um... What? Fly Rovers?
+b
+that was horrible
+
+c
+Gah! Sorry, you don't have to. What am I saying?
+
+b
+I'm the worst!
+
+d
+Um... I don't know... Maybe... I'll ask my mom.
+
+c
+Okay. Yeah.
+b
+he doesn't want to
+b
+why would he
+
+d
+Um... Yeah! That should be fine tho.
+g
+he wants to?
+p
+1
+b
+he pities me
+d
+I love The Fly Rovers...
+
+u
+Z
+I know
+
+p
+2
+
+us
+Z
+I know...
+ue
+
+d
+Well... Wish me luck on this test...
+
+u
+X
+say it
+
+c
+Yeah...
+
+us
+X
+c
+Good luck!
+
+d
+Thanks.
+ue
+
+p
+2
+
+s
+you
+t
+
+d
+You did it! You asked him!
+d
+Nice job!
+c
+Thanks.
+d
+That's at least one more step
+
+be
+S
+
+bgS
+
+u
+N
+reply
+
+p
+3
+
+us
+N
+c
+Yeah... That's crazy.
+
+d
+I know!
+ue
+
+d
+Well... Wish me luck on this test...
+
+u
+X
+say it
+
+c
+Yeah...
+
+us
+X
+c
+Good luck!
+
+d
+Thanks.
+ue
+
+p
+2
+
+s
+you
+t
+
+d
+Why didn't you ask him to hang out?
+c
+I was too afraid.
+d
+I know...
+
+be
+S
+
+beeS
+
 
 e
