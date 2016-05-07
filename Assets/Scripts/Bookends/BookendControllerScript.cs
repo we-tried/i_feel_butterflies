@@ -57,7 +57,7 @@ public class BookendControllerScript : MonoBehaviour {
 				StartCoroutine (ToggleActivated (2.5f));
 				keyPress.enabled = false;
 			} else if (sceneCounter == 4) {
-				ToggleActivated (0);
+				StartCoroutine(ToggleActivated (0));
 				keyPress.enabled = true;
 				StartCoroutine (FadeInImage (2, background, 0f));
 				StartCoroutine (FadeInText (2, ending, 1f));
@@ -96,7 +96,7 @@ public class BookendControllerScript : MonoBehaviour {
 				StartCoroutine (ToggleActivated (2.5f));
 				keyPress.enabled = false;
 			} else if (sceneCounter == 3) {
-				ToggleActivated (1);
+				StartCoroutine(ToggleActivated (1));
 				keyPress.enabled = true;
 				StartCoroutine (FadeInImage (2, background, 0f));
 				StartCoroutine (FadeInText (2, ending, 1f));
