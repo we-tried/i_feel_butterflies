@@ -29,13 +29,14 @@ public class BookendControllerScript : MonoBehaviour {
 	public void AddScene()
 	{
 		sceneCounter += 1;
+                sceneHandler ();
 	}
     // Update is called once per frame
     void Update () {
 		if (activated) {
 			if (Input.anyKeyDown) {
 				AddScene();
-				sceneHandler ();
+				
 			}
 		}
 	}
