@@ -314,22 +314,22 @@ Y
 c
 I stress too.
 b
-don't tell him
+don't tell him!
 
 d
 Yeah? Huh.
 b
 he's weirded out
 d
-But you're good at math?
+But you're good at math...?
 
 c
-Yeah... I know...
+Yeah... I know.
 z
 b
 speak!
 p
-2
+3
 bs
 G
 1
@@ -338,7 +338,11 @@ c
 It's not that.
 be
 G
+bgG
+be
+G
 beeG
+ue
 p
 1
 d
@@ -488,6 +492,7 @@ p
 
 us
 Z
+c
 I know...
 ue
 
